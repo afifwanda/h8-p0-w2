@@ -1,0 +1,42 @@
+/Soal nomor 1/
+store "Massa" with 600
+store "Percepatan Benda" with 2
+store "resultan gaya" without any value
+
+Calculate "Massa" times "Percepatan Benda"
+Set "resultan gaya" value with calculation result 
+
+Display "resultan gaya"
+
+/Soal nomor 2/
+
+store "year" with any number
+
+if "year" modulo 4 equals 0 and "year" modulo 100 not equals 0
+Display "Tahun Kabisat"
+else if "year" modulo 4 and "year" modulo 100 equals 0 and "year" modulo 400 equals 0
+Display "Tahun Kabisat"
+else
+Display "Bukan Tahun Kabisat"
+
+/Soal nomor 3/
+Store "clothes" with 0
+
+while "clothes" < 20
+ADD "clothes" by 1
+
+Display "Turn On Washing Machine !"
+
+/Soal no 4/
+Store "students" to 1
+
+while "students" < 40
+Display "students"
+Check "students" nails condition
+Store "nails" to the result of checking
+
+if "nails" euqals "long" 
+Do "punish"
+else
+Do "Praise"
+
